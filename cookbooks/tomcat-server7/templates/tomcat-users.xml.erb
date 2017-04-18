@@ -1,0 +1,9 @@
+
+
+<tomcat-users>
+	<role rolename="manager-gui"/>
+	<role rolename="admin-gui"/>
+<user  username="<%=node['tomcat']['user']%>" password="<%=node['tomcat']['password']%>" roles="manager-gui, admin-gui"/>
+</tomcat-users>
+	
+	
